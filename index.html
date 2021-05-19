@@ -7,7 +7,43 @@
     <title>Home</title>
   </head>
   <body>
-    <a href="test.html">link</a>
-    <h1>Hello World!</h1>
+    <!-- Principio cabecera-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="" width="40" height="40">
+        Unisoft
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Project 5 <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Final cabecera-->
+
+    <div class="container">
+      <div style="text-align: center;" class="m-5">
+        <h1>Project 5</h1>
+      </div>
+
+      <!-- Imagen y botones -->
+      <div class="row my-3">
+        <div class="col-9">
+          <img src="images/project5.png" style="width:100%"\>
+        </div>
+        <div class="col-3" style="display: flex; flex-direction:column; align-items: center; justify-content: space-evenly;">
+          <a type="button" class="btn btn-dark disabled" style="font-size: xx-large;">Download</a>
+          <a type="button" class="btn btn-dark" style="font-size: xx-large;" href="learn.html">Learn More</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
